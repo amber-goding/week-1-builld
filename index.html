@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering | Alice's - A family Restaurant</title>
+  <meta name="description" content="Bring everyone together with family-owned and operated catering from Alice's - A family Restaurant, serving burgers, steaks, pasta, seafood, and comfort food favorites.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="header-content">
+      <p class="restaurant-name">Alice's <span>A family Restaurant</span></p>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-heading" tabindex="-1">
+      <div class="hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow">Family owned. Family operated.</p>
+          <h1 id="hero-heading">Our family’s favorites.<br>Your next gathering.</h1>
+          <p class="hero-description">Bring everyone together with catering from Alice's, our family-owned and operated restaurant serving American fare from burgers and steaks to pasta, seafood, fried comfort foods, and more.</p>
+          <a class="cta" href="tel:+14106872222">Plan your catering <span aria-hidden="true">↗</span></a>
+          <p class="contact-note">Call us at 410-687-2222.</p>
+        </div>
+        <div class="carousel" role="region" aria-roledescription="carousel" aria-label="American fare at Alice's">
+          <div class="carousel-slides" aria-live="off">
+            <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 5">
+              <img src="images/burger.jpg" alt="Burger" fetchpriority="high">
+              <figcaption>Burgers</figcaption>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 5" hidden>
+              <img src="images/steak.webp" alt="Steak" decoding="async">
+              <figcaption>Steaks</figcaption>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 5" hidden>
+              <img src="images/chicken-alfredo.webp" alt="Chicken Alfredo pasta" decoding="async">
+              <figcaption>Pasta</figcaption>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 of 5" hidden>
+              <img src="images/crab-cakes.avif" alt="Crab cakes" decoding="async">
+              <figcaption>Seafood</figcaption>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="5 of 5" hidden>
+              <img src="images/country-fried-steak.avif" alt="Country fried steak" decoding="async">
+              <figcaption>Comfort food favorites</figcaption>
+            </figure>
+          </div>
+          <div class="carousel-controls" hidden>
+            <button type="button" class="carousel-toggle">Pause slideshow</button>
+            <div class="carousel-navigation">
+              <button type="button" class="carousel-previous" aria-label="Previous image">&#8592;</button>
+              <span class="carousel-position" aria-hidden="true">1 / 5</span>
+              <button type="button" class="carousel-next" aria-label="Next image">&#8594;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="hero-signoff">From our family to your table.</p>
+    </section>
+    <section id="services" class="content-section" aria-labelledby="services-heading" tabindex="-1">
+      <div class="section-content">
+        <p class="eyebrow">Catering &amp; family favorites</p>
+        <h2 id="services-heading">Bring a little Alice's to the table.</h2>
+        <ul class="services-list">
+          <li><strong>Family owned &amp; operated</strong><span>Bring the flavors of our family restaurant to your next gathering with Alice's catering.</span></li>
+          <li><strong>Classic American fare</strong><span>From <b>burgers and steaks</b> to familiar favorites, enjoy the dishes that bring everyone to the table.</span></li>
+          <li><strong>Pasta &amp; seafood</strong><span>Explore more of the menu with <b>pasta and seafood</b> alongside our American classics.</span></li>
+          <li><strong>Comfort food favorites</strong><span>Make room for <b>fried comfort foods</b> and more, with plenty of variety to inspire your gathering.</span></li>
+          <li><strong>Servers &amp; bartenders</strong><span>Let our <b>waiters, waitresses, and bartenders</b> help serve your guests so you can spend more time enjoying their company.</span></li>
+          <li><strong>Tables &amp; chairs</strong><span>Bring your gathering together with <b>tables and chairs</b> for your guests, alongside the food and service.</span></li>
+        </ul>
+        <address class="services-contact">
+          <p><strong>Phone</strong><a href="tel:+14106872222">410-687-2222</a></p>
+          <p><strong>Address</strong>2909 Eastern Blvd.<br>Middle River, MD 21220</p>
+          <p><strong>Website</strong><a href="https://alicesfamilyrestaurant.com/">alicesfamilyrestaurant.com</a></p>
+          <p><strong>Email</strong><a href="mailto:darlenegoding@alicesfamilyrestaurant.com">darlenegoding@alicesfamilyrestaurant.com</a></p>
+        </address>
+        <p class="services-note">* Tell us about your guest count, venue, and any additional event needs so we can discuss the details together.</p>
+      </div>
+    </section>
+    <section id="testimonials" class="content-section" aria-labelledby="testimonials-heading" tabindex="-1">
+      <div class="section-content">
+        <h2 id="testimonials-heading">Customer testimonials</h2>
+        <div class="testimonials-component">
+          <div class="testimonials-window" role="region" aria-label="Testimonial previews" aria-describedby="testimonial-note" tabindex="0">
+            <div class="testimonials-grid">
+              <div class="testimonial-card"><p>“A welcoming meal to bring our family together.”</p></div>
+              <div class="testimonial-card"><p>“Classic American favorites for a memorable celebration.”</p></div>
+              <div class="testimonial-card"><p>“A spread of comfort foods to share around the table.”</p></div>
+              <div class="testimonial-card"><p>“Burgers and steaks made the menu feel familiar.”</p></div>
+              <div class="testimonial-card"><p>“Pasta and seafood added variety to our gathering.”</p></div>
+              <div class="testimonial-card"><p>“Family restaurant flavors brought to our celebration.”</p></div>
+              <div class="testimonial-card"><p>“Time with our guests was the best part of the day.”</p></div>
+              <div class="testimonial-card"><p>“A friendly team to help bring everyone to the table.”</p></div>
+              <div class="testimonial-card"><p>“Comfort food was at the heart of our get-together.”</p></div>
+              <div class="testimonial-card"><p>“A little taste of Alice's for a special occasion.”</p></div>
+              <div class="testimonial-card"><p>“Good company and a table full of familiar favorites.”</p></div>
+              <div class="testimonial-card"><p>“A family-style spirit for a day worth remembering.”</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© Alice's — A family Restaurant</p>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+</body>
+</html>
