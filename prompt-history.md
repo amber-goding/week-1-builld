@@ -79,3 +79,7 @@ The requested contact details are phone, address, and website.
 ## 19. Basic footer — 2026-09-18
 
 > On the bottom, let's provide a very basic footer.
+
+## 20. Services label cleanup — 2026-09-18
+
+> Remove the "catering and family favorites" in the services section.
